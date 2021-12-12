@@ -1,8 +1,13 @@
+import Header from './Components/Header'
+import Main from './Components/Main'
+
+
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <Header/>
+      <Main/>
+    </>
   );
 }
 
